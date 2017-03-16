@@ -1,0 +1,61 @@
+html {
+  font-size: 16px;
+}
+
+header {
+background-color: rgba(171,8,3,1);
+  }
+
+h1 {
+  font-weight: bold;
+}
+
+p:first-of-type::first-letter{
+  font-size: 7rem;
+  font-weight: bolder;
+  color: blue;
+}
+
+p::first-line{
+  background-color: red;
+}
+p:hover{
+  background-color: yellow;
+}
+
+nav {
+    font-size: 3rem;
+  }
+
+li {
+  list-style: circle;
+  color: blue;
+}
+
+.info {
+  font-size: 5rem;
+}
+
+a:link{
+  color:black;
+}
+
+a:visited {
+  color:white;
+}
+
+.port-nav:hover {
+  hover
+}
+
+#h1-port {
+ color: rebeccapurple;
+}
+
+#h1-home {
+  color: rebeccapurple;
+}
+
+#projects {
+  color: green;
+}
