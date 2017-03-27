@@ -1,5 +1,6 @@
 html {
   font-size: 16px;
+  font-family: 'Philosopher', sans-serif;
 }
 
 header {
@@ -22,6 +23,24 @@ p:first-line{
 
 p:hover{
   background-color: yellow;
+  transition: all 2s cubic-bezier(.16,.86,.23,.17) 1s;
+}
+
+.hover-pop{
+
+}
+
+p:nth-child(1n+1){
+  background-color: green;
+}
+
+td:nth-child(2n+2){
+  background-color: rebeccapurple;
+}
+
+td:nth-child(2n+1){
+  background-color: rgb(32,35,112);
+  color: rgb(150,35,140);
 }
 
 nav {
@@ -60,15 +79,26 @@ a:visited {
 }
 
 .project-list a{
-  color: red;
+  color: rgb(255,0,0);
+  transition: all .2s cubic-bezier(.16,.86,.23,.17) .2s;
 }
 
 .project-list a:hover{
-  color: orange;
+  color: rgb(255,148,13);
+    background: rgb(255, 0, 255);
+    border-radius: 50%;
+    color: rgb(0, 255, 255);
+    /*animation: 5s ease 0s infinite pulse;*/
+    width: 50rem;
 }
 
 .project-list {
   float: left;
+  transition: all .5s cubic-bezier(.16,.86,.23,.17) .2s;
+}
+
+.project-list:hover {
+  font-size: 6rem;
 }
 
 #h1-port {
